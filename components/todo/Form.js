@@ -15,7 +15,7 @@ export default function Form({ pushTodo }) {
     pushTodo(newTodo);
     setNewTodo("");
     addToast({
-      duration: 3000,
+      duration: 2500,
       isClosable: true,
       fontSize: 50,
       render: () => (
