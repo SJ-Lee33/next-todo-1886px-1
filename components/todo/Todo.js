@@ -34,9 +34,9 @@ export default function Todo() {
   };
 
   return (
-    <>
+    <Box margin="2rem" padding="2rem 0" borderRadius="md" bg="#FED7E2">
       <Form pushTodo={pushTodo} />
       <Item todoList={todoList} deleteTodo={deleteTodo} />
-    </>
+    </Box>
   );
 }
