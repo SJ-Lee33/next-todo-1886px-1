@@ -3,7 +3,7 @@ import { useState } from "react";
 import Item from "./Item";
 import Form from "./Form";
 
-import { Heading, Container, useToast, Box } from "@chakra-ui/react";
+import { useToast, Box } from "@chakra-ui/react";
 
 export default function Todo() {
   const [id, setId] = useState(0);

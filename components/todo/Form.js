@@ -1,6 +1,6 @@
 import { useState } from "react";
 import css from "styled-jsx/css";
-import { Input, Button, FormControl, Box, useToast } from "@chakra-ui/react";
+import { Input, Button, Box, useToast } from "@chakra-ui/react";
 
 export default function Form({ pushTodo }) {
   const [newTodo, setNewTodo] = useState("");

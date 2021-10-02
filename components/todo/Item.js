@@ -1,6 +1,6 @@
 import { MdDelete, MdCheck } from "react-icons/md";
 import css from "styled-jsx/css";
-import { Box, Center, useToast, Checkbox } from "@chakra-ui/react";
+import { Center } from "@chakra-ui/react";
 
 export default function Item({ todoList, deleteTodo }) {
   const checkTodo = (event) => {

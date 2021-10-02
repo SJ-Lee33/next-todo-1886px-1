@@ -1,4 +1,4 @@
-import { WrapItem, Center, Heading } from "@chakra-ui/react";
+import { WrapItem, Center } from "@chakra-ui/react";
 import css from "styled-jsx/css";
 export default function Header() {
   return (
